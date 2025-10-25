@@ -29,7 +29,7 @@ if __name__ == "__main__":
 	try:
 		result = search_number(nums, int(x))
 		if result != -1:
-			print(f"Number found at index: {result}")
+			print(f"Number found at index: {result + 1}")
 		else:
 			print("Number not found.")
 	except ValueError:
